@@ -1,6 +1,6 @@
-import button from "../components/atoms/button/button.html";
+import Atoms_Button from "../components/atoms/button/button.html";
 import "../components/atoms/button/button.scss";
 
-export default { title: "Atoms/button" }
+export default { title: "Atoms/Button" }
 
-export const Example = () => button;
+export const Button = () => Atoms_Button;
